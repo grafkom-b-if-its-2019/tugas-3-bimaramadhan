@@ -29,7 +29,7 @@
     transLoc = gl.getUniformLocation(program, 'vec');
     sizeLoc = gl.getUniformLocation(program, 'size');
     size = 0.3;
-    theta = [20, 40, 0];
+    theta = [10, 10, 0];
     vec = [0, 0, 0];
     xAdder = 0.0081;
     yAdder = 0.0099;
@@ -37,7 +37,7 @@
     adder = 0.81;
 
     thetaLoc2 = gl.getUniformLocation(program2, 'theta');
-    theta2 = [20, 40, 0];
+    theta2 = [10, 20, 0];
 
     resizer();
   }
